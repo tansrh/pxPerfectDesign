@@ -1,0 +1,70 @@
+/* Birds Styles */
+.bird {
+    position: absolute;
+    z-index: 1;
+}
+
+.bird img {
+    width: 3.125rem; /* Converted from 50px */
+    margin: 0 0.625rem; /* Converted from 10px */
+}
+
+.bird-1 {
+    top: 39.148438rem; /* Converted from 625.39px */
+    left: 16.924438rem; /* Converted from 271.92px */
+}
+
+.bird1-tag {
+    top: 41.148438rem; /* Converted from 664.39px */
+    left: 20.924438rem; /* Converted from 334.92px */
+}
+
+.bird-2 {
+    top: 36.148438rem; /* Converted from 591.39px */
+    left: 35.565438rem; /* Converted from 565.92px */
+}
+
+.bird2-tag {
+    top: 36.148438rem; /* Converted from 598.39px */
+    left: 38.565438rem; /* Converted from 610.92px */
+}
+
+.bird-3 {
+    top: 40.148438rem; /* Converted from 644.39px */
+    left: 62.565438rem; /* Converted from 998.92px */
+}
+
+.bird3-tag {
+    top: 41.148438rem; /* Converted from 668.39px */
+    left: 62.565438rem; /* Converted from 998.92px */
+}
+
+.bird-4 {
+    top: 36.148438rem; /* Converted from 594.39px */
+    left: 76.565438rem; /* Converted from 1228.92px */
+}
+
+.bird4-tag {
+    top: 35.148438rem; /* Converted from 580.39px */
+    left: 81.565438rem; /* Converted from 1298.92px */
+}
+
+.bird-5 {
+    top: 15.0625rem; /* Converted from 241px */
+    left: 12.37625rem; /* Converted from 198.18px */
+}
+
+.bird-6 {
+    top: 18.1875rem; /* Converted from 291px */
+    left: 18.6875rem; /* Converted from 298.18px */
+}
+
+.bird-7 {
+    top: 15.0625rem; /* Converted from 241px */
+    left: 73.6875rem; /* Converted from 1168.18px */
+}
+
+.bird-8 {
+    top: 26.1875rem; /* Converted from 421px */
+    left: 79.1875rem; /* Converted from 1268.18px */
+}

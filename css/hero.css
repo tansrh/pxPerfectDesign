@@ -1,0 +1,77 @@
+/* Hero Section Styles */
+.hero {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    height: 29.8125rem; /* Converted from 477px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem; /* Converted from 48px */
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 4rem; /* Converted from 64px */
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.hero h1 span {
+    color: var(--secondary-color);
+}
+
+.hero .badge {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem; /* Converted from 16px */
+    line-height: 120%;
+    color: var(--primary-color);
+    padding: 0.3125rem 0.625rem; /* Converted from 5px 10px */
+    border-radius: 0.3125rem; /* Converted from 5px */
+    display: inline-block;
+}
+
+.hero .buttons {
+    width: 25.875rem; /* Converted from 414px */
+    height: 2.875rem; /* Converted from 46px */
+    gap: 0.75rem; /* Converted from 12px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.hero .buttons a {
+    text-decoration: none;
+    border-radius: 0.3125rem; /* Unified border radius */
+    font-size: 1.125rem; /* Unified font size */
+    font-weight: bold;
+}
+
+.hero .buttons .get-started {
+    max-width: 8.5rem; /* Converted from 136px */
+    background: var(--primary-color);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .buttons .download-app {
+    max-width: 16.625rem; /* Converted from 266px */
+    border: 0.04375rem solid #6C788F; /* Converted from 0.7px */
+    color: #1D2026;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

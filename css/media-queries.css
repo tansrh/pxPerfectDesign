@@ -1,0 +1,78 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px; /* Smaller screens */
+    }
+
+    .hero-wrapper {
+        max-width: 42rem; /* Adjust width for smaller screens */
+        height: auto;
+    }
+
+    .hero {
+        height: 32rem;
+        width: auto;
+        padding: 0.3rem;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 650px) {
+    .navbar .nav-links {
+        width: 20rem; /* Reduced width for smaller screens */
+        gap: 0.5rem; /* Reduced gap for smaller screens */
+    }
+
+    .navbar {
+        padding: 1rem; /* Adjusted padding for smaller screens */
+        gap: 0.5rem; /* Reduced gap in the entire navbar */
+    }
+
+    .hero-wrapper {
+        max-width: 40rem; /* Adjust width for smaller screens */
+    }
+
+    .hero {
+        height: 40rem;
+        justify-content: start;
+    }
+
+    .hero .buttons {
+        flex-direction: column;
+    }
+
+    .hero .buttons .get-started {
+        max-width: 16.625rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px) {
+    .navbar .nav-links {
+        width: auto; /* Reduced width for smaller screens */
+        gap: 0.3rem; /* Reduced gap for smaller screens */
+        word-break: break-all;
+    }
+
+    .navbar {
+        padding: 0.5rem; /* Adjusted padding for smaller screens */
+        gap: 0.3rem; /* Reduced gap in the entire navbar */
+    }
+
+    .hero-wrapper {
+        max-width: 36rem; /* Adjust width for smaller screens */
+    }
+
+    .hero {
+        height: 40rem;
+    }
+
+    .navbar .logo img {
+        width: 6rem; /* Adjusted width for smaller screens */
+        height: 100%; /* Maintain aspect ratio */
+    }
+
+    .hero {
+        height: 42rem;
+    }
+}

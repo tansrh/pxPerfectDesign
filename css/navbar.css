@@ -1,0 +1,53 @@
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    max-width: 62.5rem; /* Converted from 1000px */
+    height: 3.8125rem; /* Converted from 61px */
+    left: 15rem; /* Converted from 240px */
+    justify-content: space-between;
+    opacity: 1;
+    border-radius: 12.5rem; /* Converted from 200px */
+    padding: 1.25rem 1.25rem 1.25rem 1.5rem; /* Converted from 20px 20px 20px 24px */
+    box-shadow: var(--sds-size-depth-0) var(--sds-size-depth-025) var(--sds-size-depth-100) var(--sds-size-depth-0) var(--sds-color-black-100);
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 1.875rem; /* Converted from 30px */
+}
+
+.navbar .nav-links {
+    width: 24.8125rem; /* Converted from 397px */
+    height: 2.375rem; /* Converted from 38px */
+    gap: 1rem; /* Converted from 16px */
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-links a {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 1rem; /* Converted from 16px */
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #8C97A8;
+    text-decoration: none;
+}
+
+.navbar .contact-sales {
+    background-color: #007AFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.625rem; /* Converted from 138px */
+    height: 2.5625rem; /* Converted from 41px */
+    opacity: 1;
+    gap: 0.43625rem; /* Converted from 6.98px */
+    border-radius: 2.72625rem; /* Converted from 43.62px */
+    padding: 0.6875rem 1.125rem; /* Converted from 11px 18px */
+    color: #FFFFFF;
+    text-decoration: none;
+}
