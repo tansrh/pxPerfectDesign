@@ -615,3 +615,14 @@ html {
         height: 42rem;
     }
 }
+
+@media (max-width: 390px) {
+    .hero {
+        height: 48rem;
+        padding: 0.3rem;
+    }
+    body {
+        overflow-y: scroll;
+        height: 105vh;
+    }
+}
